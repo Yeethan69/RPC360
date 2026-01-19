@@ -8,9 +8,9 @@
 
 ## Usage
 
-Put the RPC360.xex anywhere on your HDD or USB.
-Edit config-example.json, rename to config.json and place it next to RPC360.xex.
-Load plugin or set to autoload in dashlaunch.
+Put the RPC360.xex anywhere on your HDD or USB.  
+Edit config-example.json, rename to config.json and place it next to RPC360.xex.  
+Load plugin or set to autoload in dashlaunch.  
 
 Thats it.
 
@@ -18,9 +18,9 @@ It has not been too heavily tested so it may crash and some edge cases may break
 
 ## TODO
 
-* \[ ] Make it more stable.
-* \[ ] Add image fallbacks for games without icons.
-* \[ ] Fix some edge cases.
+* [ ] Make it more stable.
+* [ ] Add image fallbacks for games without icons.
+* [ ] Fix some edge cases.
 
 ## Credits
 
