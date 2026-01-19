@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{a9f88c89-ccde-4418-bb42-d85bb0eaa795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\json">
+      <UniqueIdentifier>{ba3d5ea1-15a5-4b82-b2c9-036983cc79e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Discord">
+      <UniqueIdentifier>{38318f0d-022b-4993-87ba-e133bdc98c42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WebSocket">
+      <UniqueIdentifier>{d2ba3a93-eb82-4dd1-84b1-e14c3f0a7cc0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="xex.xml">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="deps\json\jsoncpp.cpp">
+      <Filter>Dependencies\json</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RPC360.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Discord\Discord.cpp">
+      <Filter>Source Files\Discord</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WebSocket\WebSocketClient.cpp">
+      <Filter>Source Files\WebSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WebSocket\WebSocket.cpp">
+      <Filter>Source Files\WebSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Web\WebHelpers.cpp">
+      <Filter>Source Files\WebSocket</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\RPC360.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Discord\Discord.h">
+      <Filter>Source Files\Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\json\json.h">
+      <Filter>Dependencies\json</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\json\json-forwards.h">
+      <Filter>Dependencies\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WebSocket\WebSocketClient.h">
+      <Filter>Source Files\WebSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WebSocket\WebSocket.h">
+      <Filter>Source Files\WebSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Web\WebHelpers.h">
+      <Filter>Source Files\WebSocket</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

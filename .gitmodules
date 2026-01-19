@@ -1,0 +1,3 @@
+[submodule "RPC360/deps/XexUtils"]
+	path = RPC360/deps/XexUtils
+	url = https://github.com/ClementDreptin/XexUtils.git
